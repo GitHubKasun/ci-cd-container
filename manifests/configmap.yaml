@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: aks-auto-config
+  namespace: aks-python-app
+  labels:
+    app.kubernetes.io/name: aks-auto
+    kubernetes.azure.com/generator: devhub
+data:
